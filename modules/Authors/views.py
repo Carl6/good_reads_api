@@ -8,7 +8,7 @@ from .serializers import AuthorSerializer, AuthorBookSerializer
 from django.db.models import Q
 
 #antes funciones basadas en vistas, ahora clases basadas en vistas o "Classed base views"
-#heredamos estas clases de clase padre APIVIEW
+#heredamos estas clases de clase padre APIVIEW HOLA!!!!!
 #base views classes a diferencia de en books que aplicamos generic views y podemos escribir lo otro en lugar de esro
 
 class AuthorList(APIView):
